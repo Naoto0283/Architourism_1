@@ -2,5 +2,10 @@
   <div class="top-inner-text">
     <h1>Architourism</h1>
     <h4>-文化財 建造物検索サービス-</h4>
+    <%= link_to '#', class: 'map-link' do %>
+      <i class="bi bi-geo-alt-fill"></i> <!-- Bootstrap Icons を使用 -->
+    <% end %>
+    <p class="map-link-text">マップ上で探す</p> 
+    <%= link_to 'マイページ', login_path, class: 'nav-link' %>
   </div>
 </div>
